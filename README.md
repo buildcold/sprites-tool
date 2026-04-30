@@ -1,5 +1,7 @@
 # Sprite Animation Preview Tool
 
+![Sprite Animation Preview Tool](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sprite%20animation%20preview%20tool%20UI%20interface%20with%20file%20upload%20section%20and%20parameter%20settings%20for%20rows%20columns%20frames%20with%20canvas%20preview%20area%20modern%20clean%20design&image_size=landscape_16_9)
+
 A desktop application for previewing and exporting sprite animations.
 
 ## Features
@@ -43,3 +45,53 @@ npm run tauri:build
 - gif.js (GIF export)
 - apng-fest (APNG export)
 - FFmpeg (WebP export)
+
+---
+
+# Sprite 动画预览工具
+
+![Sprite 动画预览工具](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sprite%20animation%20preview%20tool%20UI%20interface%20with%20file%20upload%20section%20and%20parameter%20settings%20for%20rows%20columns%20frames%20with%20canvas%20preview%20area%20modern%20clean%20design&image_size=landscape_16_9)
+
+一个用于预览和导出 Sprite 动画的桌面应用程序。
+
+## 功能特性
+
+- **Sprite 图片上传**: 支持上传精灵图（PNG, JPG, WebP 等格式）
+- **自定义网格**: 配置行数、列数和总帧数
+- **帧尺寸调整**: 自定义帧宽度和高度
+- **动画预览**: 可配置 FPS 的播放/暂停动画预览
+- **多种导出格式**:
+  - GIF
+  - APNG（动画 PNG）
+  - WebP
+
+## 使用方法
+
+1. 上传您的 Sprite 图片
+2. 配置网格布局（行数、列数、总帧数）
+3. 根据需要调整帧尺寸
+4. 预览动画
+5. 导出到您喜欢的格式
+
+## 开发
+
+```bash
+# 安装依赖
+npm install
+
+# 开发模式运行
+npm run tauri:dev
+
+# 构建生产版本
+npm run tauri:build
+```
+
+## 技术栈
+
+- React
+- Vite
+- Tauri
+- Tailwind CSS 4
+- gif.js（GIF 导出）
+- apng-fest（APNG 导出）
+- FFmpeg（WebP 导出）
