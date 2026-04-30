@@ -1,6 +1,6 @@
 # Sprite Animation Preview Tool
 
-![Sprite Animation Preview Tool](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sprite%20animation%20preview%20tool%20UI%20interface%20with%20file%20upload%20section%20and%20parameter%20settings%20for%20rows%20columns%20frames%20with%20canvas%20preview%20area%20modern%20clean%20design&image_size=landscape_16_9)
+<br />
 
 A desktop application for previewing and exporting sprite animations.
 
@@ -46,11 +46,11 @@ npm run tauri:build
 - apng-fest (APNG export)
 - FFmpeg (WebP export)
 
----
+***
 
 # Sprite 动画预览工具
 
-![Sprite 动画预览工具](https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Sprite%20animation%20preview%20tool%20UI%20interface%20with%20file%20upload%20section%20and%20parameter%20settings%20for%20rows%20columns%20frames%20with%20canvas%20preview%20area%20modern%20clean%20design&image_size=landscape_16_9)
+<br />
 
 一个用于预览和导出 Sprite 动画的桌面应用程序。
 
@@ -95,3 +95,4 @@ npm run tauri:build
 - gif.js（GIF 导出）
 - apng-fest（APNG 导出）
 - FFmpeg（WebP 导出）
+
